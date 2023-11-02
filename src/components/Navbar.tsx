@@ -8,10 +8,10 @@ const Navbar = () => {
         <Logo src={logo} />
         <NavLinks>
           <NavLink>
-            <a href="/home">Home</a>
+            <a href="/">home</a>
           </NavLink>
           <NavLink>
-            <a href="/cart">Cart</a>
+            <a href="/cart">cart</a>
           </NavLink>
         </NavLinks>
       </NavbarContainer>

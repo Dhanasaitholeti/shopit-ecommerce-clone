@@ -12,7 +12,7 @@ const ProductCard = () => {
       <Productcard>
         <ProductImage src={products[0].Image_URL} />
         <ProductTitle>{products[0].Title}</ProductTitle>
-        <ProductPrice>{products[0].Price}</ProductPrice>
+        <ProductPrice>{`\u20B9${products[0].Price}`}</ProductPrice>
         <AddToCartButton>Add to Cart</AddToCartButton>
       </Productcard>
     </>

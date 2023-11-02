@@ -364,7 +364,7 @@ export const products = [
   },
   {
     Category: "Grocery",
-    Product_ID: "GRO123",
+    Product_ID: "GRO133",
     Price: 200.99,
     Rating: 4.5,
     Description:
@@ -375,7 +375,7 @@ export const products = [
   },
   {
     Category: "Grocery",
-    Product_ID: "GRO456",
+    Product_ID: "GRO446",
     Price: 300.49,
     Rating: 4.2,
     Description:
@@ -386,7 +386,7 @@ export const products = [
   },
   {
     Category: "Grocery",
-    Product_ID: "GRO789",
+    Product_ID: "GRO799",
     Price: 100.99,
     Rating: 4.0,
     Description:

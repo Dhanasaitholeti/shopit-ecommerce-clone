@@ -12,13 +12,15 @@ export const SectionsWrapper = styled.section`
   display: flex;
   flex-direction: column;
   margin-left: 1.75rem;
-  p {
-    font-weight: 500;
-    opacity: 0.75;
-    &:hover {
-      opacity: 1;
-      cursor: pointer;
-      color: #0070ff;
-    }
+`;
+
+export const Para = styled.p`
+  font-weight: 500;
+  opacity: 0.75;
+
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+    color: #0070ff;
   }
 `;

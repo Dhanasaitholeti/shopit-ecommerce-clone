@@ -1,10 +1,11 @@
 import { Logo, NavLink, NavLinks, NavbarContainer } from "./ui/Navbar.styles";
+import logo from "../assets/images/Navbarimage.png";
 
 const Navbar = () => {
   return (
     <>
       <NavbarContainer>
-        <Logo href="/"> Logo</Logo>
+        <Logo src={logo} />
         <NavLinks>
           <NavLink>
             <a href="/home">Home</a>

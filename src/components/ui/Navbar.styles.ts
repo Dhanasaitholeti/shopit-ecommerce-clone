@@ -6,14 +6,13 @@ export const NavbarContainer = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 40px;
+  padding: 0 50px;
   box-shadow: 0 0 1px black;
 `;
 
-export const Logo = styled.a`
-  color: blue;
-  font-size: 2rem;
-  text-decoration: none;
+export const Logo = styled.img`
+  height: 64px;
+  width: fit-content;
 `;
 
 export const NavLinks = styled.ul`

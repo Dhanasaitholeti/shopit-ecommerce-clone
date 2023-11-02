@@ -5,8 +5,9 @@ export const products = [
     Price: "$29.99",
     Rating: 4.5,
     Description:
-      "A comfortable and stylish t-shirt made from high-quality cotton.",
-    Image_URL: "https://example.com/clo123.jpg",
+      "This men's cotton t-shirt is the epitome of comfort and style. Crafted from high-quality cotton, it offers a soft touch against your skin, making it perfect for all-day wear. Whether you're dressing up for a special occasion or keeping it casual, this t-shirt is a versatile addition to your wardrobe. Its classic design ensures a timeless look, and the affordable price makes it a great value. From its durable construction to its comfortable fit, this t-shirt is a must-have for any fashion-conscious man. Look great and feel even better with this essential clothing item.",
+    Image_URL:
+      "https://images.bewakoof.com/t1080/men-s-purple-beast-within-graphic-printed-oversized-t-shirt-581488-1694763256-1.jpg",
     Title: "Men's Cotton T-Shirt",
   },
 
@@ -16,7 +17,7 @@ export const products = [
     Price: "$49.99",
     Rating: 4.2,
     Description:
-      "A trendy and fashionable dress for women, perfect for any occasion.",
+      "Elevate your fashion game with this trendy and fashionable women's floral print dress. It's the ideal choice for various occasions, from brunches with friends to special evenings out. The dress features a captivating floral pattern that adds a touch of elegance to your style. Crafted with attention to detail, it's designed to provide both comfort and sophistication. The affordable price point ensures that you get value for your money. With its flattering fit and eye-catching design, this dress is a must-have in every woman's wardrobe. Make a statement and turn heads wherever you go.",
     Image_URL: "https://example.com/clo456.jpg",
     Title: "Women's Floral Print Dress",
   },
@@ -25,7 +26,8 @@ export const products = [
     Product_ID: "CLO789",
     Price: "$39.99",
     Rating: 4.0,
-    Description: "Classic denim jeans for a casual and timeless look.",
+    Description:
+      "Classic denim jeans are a staple for any wardrobe. These men's denim jeans are a timeless choice for a casual and versatile look. Crafted with durability in mind, they are designed to withstand the test of time, making them a wise investment. The comfortable fit and affordable price make them an excellent addition to your clothing collection. These jeans are perfect for everyday wear, whether you're running errands or going out with friends. Embrace the simplicity and style of classic denim and enjoy the confidence that comes with it. Upgrade your fashion game with these essential denim jeans.",
     Image_URL: "https://example.com/clo789.jpg",
     Title: "Men's Denim Jeans",
   },
@@ -34,7 +36,8 @@ export const products = [
     Product_ID: "CLO012",
     Price: "$59.99",
     Rating: 4.7,
-    Description: "A cozy and warm sweater made from soft wool.",
+    Description:
+      "Stay cozy and stylish with this women's wool sweater. Made from soft, high-quality wool, it provides warmth and comfort during the colder months. The sweater's design is both timeless and contemporary, making it a versatile addition to your wardrobe. With its perfect blend of fashion and function, it's suitable for various occasions, from casual outings to formal gatherings. The fine craftsmanship ensures that this sweater will last for years to come, and its affordable price is a great value for its quality. Embrace the luxury and softness of wool and elevate your winter fashion with this beautiful sweater.",
     Image_URL: "https://example.com/clo012.jpg",
     Title: "Women's Wool Sweater",
   },
@@ -44,7 +47,7 @@ export const products = [
     Price: "$19.99",
     Rating: 4.3,
     Description:
-      "Lightweight and breathable sports shorts for active individuals.",
+      "Designed for active individuals, these men's sports shorts offer a lightweight and breathable solution for your workouts and physical activities. The shorts are crafted with performance and comfort in mind, ensuring that you can move freely and stay cool during your exercises. With an affordable price, they provide great value for their quality. Whether you're hitting the gym, going for a run, or simply enjoying outdoor sports, these shorts are a reliable choice. Their classic design and durable construction make them a must-have for any fitness enthusiast. Get ready to take your athleticism to the next level with these sports shorts.",
     Image_URL: "https://example.com/clo345.jpg",
     Title: "Men's Sports Shorts",
   },
@@ -53,7 +56,8 @@ export const products = [
     Product_ID: "CLO678",
     Price: "$69.99",
     Rating: 4.8,
-    Description: "A stylish and elegant evening gown for special occasions.",
+    Description:
+      "Make a stunning entrance at special occasions with this women's evening gown. This gown offers a perfect blend of style and elegance, making it the ideal choice for events such as weddings, galas, and formal dinners. The gown's design exudes sophistication and grace, ensuring you'll be the center of attention. Crafted with meticulous attention to detail, it provides a comfortable and flattering fit. Despite its high-end look, this evening gown comes at an affordable price, offering exceptional value for its quality. When you want to leave a lasting impression, this gown is the perfect choice for your formal events.",
     Image_URL: "https://example.com/clo678.jpg",
     Title: "Women's Evening Gown",
   },
@@ -63,7 +67,7 @@ export const products = [
     Price: "$34.99",
     Rating: 4.1,
     Description:
-      "Comfortable and stretchy yoga pants for yoga and fitness enthusiasts.",
+      "Designed for yoga and fitness enthusiasts, these women's yoga pants are the epitome of comfort and flexibility. Their comfortable and stretchy fabric allows you to move with ease during your workouts and yoga sessions. Crafted with durability in mind, these pants are built to last. With an affordable price, they offer exceptional value for their quality. Whether you're practicing yoga, going to the gym, or simply enjoying athleisure, these yoga pants are a versatile addition to your wardrobe. Embrace both style and functionality as you prioritize your health and well-being in these comfortable yoga pants.",
     Image_URL: "https://example.com/clo901.jpg",
     Title: "Women's Yoga Pants",
   },
@@ -72,7 +76,8 @@ export const products = [
     Product_ID: "CLO234",
     Price: "$24.99",
     Rating: 4.5,
-    Description: "A versatile and trendy denim jacket for a fashionable look.",
+    Description:
+      "Add a versatile and trendy layer to your wardrobe with this men's denim jacket. Its classic design and durable construction make it a must-have for a fashionable look. Crafted from high-quality denim, it offers a perfect blend of style and functionality. The affordable price ensures that you get great value for this wardrobe staple. Whether you're heading out for a casual day or layering up for cooler evenings, this jacket complements your style effortlessly. Its timeless appeal and comfortable fit provide a reliable choice for all seasons. Elevate your fashion game and embrace the versatility of denim with this jacket.",
     Image_URL: "https://example.com/clo234.jpg",
     Title: "Men's Denim Jacket",
   },
@@ -81,7 +86,8 @@ export const products = [
     Product_ID: "CLO567",
     Price: "$39.99",
     Rating: 4.6,
-    Description: "Stylish and durable running shoes for athletes and runners.",
+    Description:
+      "Achieve both style and performance with these stylish and durable men's running shoes. Whether you're an athlete or a casual runner, these shoes are designed to provide comfort and support during your runs. Crafted for durability, they can withstand the demands of your active lifestyle. The affordable price ensures that you get great value for their quality. With a sleek design and comfortable fit, these running shoes are a fashion-forward choice. Conquer your runs and workouts with confidence, knowing you're wearing dependable and fashionable footwear that complements your active lifestyle.",
     Image_URL: "https://example.com/clo567.jpg",
     Title: "Men's Running Shoes",
   },
@@ -90,7 +96,8 @@ export const products = [
     Product_ID: "CLO890",
     Price: "$29.99",
     Rating: 4.4,
-    Description: "A casual and comfortable hoodie for everyday wear.",
+    Description:
+      "Embrace casual comfort with this women's hoodie, perfect for everyday wear. This hoodie is designed to keep you warm and cozy in any season. Crafted for comfort and durability, it's a reliable addition to your casual wardrobe. The versatile design and affordable price make it a fantastic value. Whether you're running errands, relaxing at home, or meeting friends, this hoodie provides the ideal blend of style and comfort. The cozy and casual look ensures you stay comfortable without sacrificing your fashion sense. Elevate your daily style with this women's hoodie, a go-to choice for laid-back days.",
     Image_URL: "https://example.com/clo890.jpg",
     Title: "Women's Hoodie",
   },
@@ -100,7 +107,7 @@ export const products = [
     Price: "$199.99",
     Rating: 4.8,
     Description:
-      "A powerful and sleek smartphone with a high-resolution display and advanced camera features.",
+      "Step into the future with this powerful and sleek smartphone. Boasting a high-resolution display and advanced camera features, it is designed to meet all your communication and multimedia needs. Whether you're capturing stunning photos or browsing the web, this smartphone offers a seamless experience. Its premium design and build quality reflect its high-end features. With an affordable price, it provides exceptional value for its capabilities. Stay connected and enjoy the latest technology with this smartphone, which is not just a communication device but a companion for your daily life.",
     Image_URL: "https://example.com/ele123.jpg",
     Title: "Smartphone",
   },
@@ -110,7 +117,7 @@ export const products = [
     Price: "$99.99",
     Rating: 4.4,
     Description:
-      "An affordable and compact laptop with a fast processor and long battery life.",
+      "Meet your computing needs with this affordable and compact laptop. It is equipped with a fast processor and long battery life, ensuring you can work and play without interruptions. The laptop's portable design makes it ideal for on-the-go use. Despite its budget-friendly price, it delivers exceptional performance. Whether you're working on projects, streaming content, or staying productive, this laptop offers a seamless experience. Experience the power of technology without breaking the bank and make this laptop your trusted companion for all your computing tasks.",
     Image_URL: "https://example.com/ele456.jpg",
     Title: "Laptop",
   },
@@ -120,7 +127,7 @@ export const products = [
     Price: "$149.99",
     Rating: 4.6,
     Description:
-      "A feature-packed smartwatch with fitness tracking and notification capabilities.",
+      "Stay connected and active with this feature-packed smartwatch. It offers fitness tracking and notification capabilities, ensuring you're always in the loop. The smartwatch's affordable price provides great value for its features. Whether you're working out, managing your daily tasks, or simply staying connected, this smartwatch is designed to keep up with your dynamic lifestyle. Its sleek and modern design complements your style effortlessly. Enjoy the convenience and functionality of a smartwatch that enhances your daily life. Stay motivated and organized with this reliable and affordable smartwatch.",
     Image_URL: "https://example.com/ele789.jpg",
     Title: "Smartwatch",
   },
@@ -130,7 +137,7 @@ export const products = [
     Price: "$499.99",
     Rating: 4.7,
     Description:
-      "A high-definition television with a large screen and immersive sound.",
+      "Transform your home entertainment experience with this high-definition smart TV. Its large screen and exceptional sound quality provide a cinematic experience within the comfort of your living room. Whether you're streaming your favorite shows, gaming, or watching sports, this smart TV delivers top-notch entertainment. The affordable price ensures you get great value for a high-quality television. The TV's sleek design adds a touch of modernity to your living space. Immerse yourself in the world of high-definition visuals and crystal-clear sound with this smart TV. Upgrade your home entertainment system and enjoy an unparalleled viewing experience.",
     Image_URL: "https://example.com/ele012.jpg",
     Title: "Smart TV",
   },
@@ -140,7 +147,7 @@ export const products = [
     Price: "$79.99",
     Rating: 4.2,
     Description:
-      "A compact and portable Bluetooth speaker for music on the go.",
+      "Elevate your music experience with this compact and portable Bluetooth speaker. Whether you're indoors or outdoors, this speaker delivers high-quality sound and convenience. With wireless connectivity, it's your go-to device for music on the go. The affordable price ensures that you get great value for its performance. Enjoy your favorite tunes with friends and family, whether you're at a picnic, a party, or simply relaxing at home. This Bluetooth speaker combines style with functionality to provide an outstanding audio experience. Make your music come to life and take it wherever you go with this sleek and affordable speaker.",
     Image_URL: "https://example.com/ele345.jpg",
     Title: "Bluetooth Speaker",
   },
@@ -150,7 +157,7 @@ export const products = [
     Price: "$349.99",
     Rating: 4.5,
     Description:
-      "A versatile and powerful DSLR camera for photography enthusiasts.",
+      "Capture unforgettable moments with this versatile and powerful DSLR camera. Designed for photography enthusiasts, it offers the tools and features you need to unleash your creativity. Whether you're a beginner or a seasoned photographer, this camera provides exceptional image quality and precise controls. Its affordable price point makes it accessible to a wide range of users. With the ability to shoot high-resolution photos and videos, it's the perfect companion for your photography journey. Unlock your full potential as a photographer and document life's most precious moments with this reliable and affordable DSLR camera.",
     Image_URL: "https://example.com/ele678.jpg",
     Title: "DSLR Camera",
   },
@@ -160,7 +167,7 @@ export const products = [
     Price: "$29.99",
     Rating: 4.0,
     Description:
-      "True wireless earbuds with noise cancellation and long battery life.",
+      "Enjoy a wire-free audio experience with these true wireless earbuds. They feature noise cancellation and an extended battery life, ensuring you get immersive sound quality and uninterrupted playback. Whether you're on a call or listening to music, these earbuds deliver exceptional performance. Their affordable price makes them accessible to all, providing great value for their features.",
     Image_URL: "https://example.com/ele901.jpg",
     Title: "True Wireless Earbuds",
   },
@@ -170,7 +177,7 @@ export const products = [
     Price: "$199.99",
     Rating: 4.3,
     Description:
-      "A gaming console with high-performance graphics and immersive gameplay.",
+      "Immerse yourself in the world of high-performance gaming with this console. It boasts cutting-edge graphics and offers a captivating gaming experience. Whether you're a casual gamer or a hardcore enthusiast, this console provides endless entertainment. While it offers top-tier performance, it remains budget-friendly, giving you exceptional value for a fantastic gaming experience.",
     Image_URL: "https://example.com/ele234.jpg",
     Title: "Gaming Console",
   },
@@ -180,7 +187,7 @@ export const products = [
     Price: "$79.99",
     Rating: 4.1,
     Description:
-      "A compact and lightweight e-reader for reading your favorite books on the go.",
+      "For book lovers on the go, this compact and lightweight e-reader is your perfect companion. It allows you to read your favorite books and documents with ease. The affordable price ensures accessibility, and its convenience is unparalleled. Enjoy your reading journey wherever you are, with a device that's designed for readers who are always on the move.",
     Image_URL: "https://example.com/ele567.jpg",
     Title: "E-Reader",
   },
@@ -190,7 +197,7 @@ export const products = [
     Price: "$249.99",
     Rating: 4.6,
     Description:
-      "A wireless router with fast internet speeds and wide coverage range.",
+      "Say goodbye to slow internet with this powerful wireless router. It offers fast internet speeds and a wide coverage range, ensuring your entire home is connected. Whether you're streaming, working, or gaming, this router enhances your online experience. The investment in this router is justified by the affordable price and the value it adds to your internet connectivity.",
     Image_URL: "https://example.com/ele890.jpg",
     Title: "Wireless Router",
   },
@@ -200,7 +207,7 @@ export const products = [
     Price: "$299.99",
     Rating: 4.6,
     Description:
-      "A versatile and energy-efficient refrigerator with ample storage space.",
+      "This versatile refrigerator combines ample storage space with energy efficiency. It's designed to keep your food fresh and your kitchen organized. The high rating indicates its reliability and performance. While it offers premium features, its price remains reasonable, giving you excellent value for a kitchen appliance that will cater to your storage needs.",
     Image_URL: "https://example.com/app123.jpg",
     Title: "Refrigerator",
   },
@@ -210,7 +217,7 @@ export const products = [
     Price: "$149.99",
     Rating: 4.3,
     Description:
-      "A powerful vacuum cleaner with multiple attachments for efficient cleaning.",
+      "Make cleaning a breeze with this powerful vacuum cleaner. Its multiple attachments ensure efficient cleaning, and its high rating signifies its reliability. The budget-friendly price makes it accessible to all homeowners who want a cleaner, healthier living space. Keep your home spotless without breaking the bank with this exceptional vacuum cleaner.",
     Image_URL: "https://example.com/app456.jpg",
     Title: "Vacuum Cleaner",
   },
@@ -220,7 +227,7 @@ export const products = [
     Price: "$79.99",
     Rating: 4.5,
     Description:
-      "An easy-to-use coffee maker that brews delicious coffee in minutes.",
+      "Brew delicious coffee in minutes with this easy-to-use coffee maker. It offers the perfect cup of joe without the hassle. Its affordable price provides excellent value for coffee enthusiasts who appreciate the convenience of a home-brewed cup. Say goodbye to long coffee shop lines and enjoy your favorite brew at home.",
     Image_URL: "https://example.com/app789.jpg",
     Title: "Coffee Maker",
   },
@@ -230,7 +237,7 @@ export const products = [
     Price: "$199.99",
     Rating: 4.4,
     Description:
-      "A high-capacity washing machine with advanced washing cycles for different fabric types.",
+      "Simplify laundry day with this high-capacity washing machine. It features advanced washing cycles for various fabric types, ensuring your clothes receive the care they need. The price justifies its efficiency and performance, providing excellent value for your investment. Experience cleaner and fresher clothes without the need for frequent trips to the laundromat.",
     Image_URL: "https://example.com/app012.jpg",
     Title: "Washing Machine",
   },
@@ -240,7 +247,7 @@ export const products = [
     Price: "$99.99",
     Rating: 4.2,
     Description:
-      "A compact microwave oven with multiple cooking presets for convenient cooking.",
+      "This compact microwave oven is a kitchen essential with multiple cooking presets for convenient cooking. It simplifies meal preparation and reheating, saving you time and effort in the kitchen. While it offers modern features, it remains affordable, ensuring that you get great value for your kitchen appliance.",
     Image_URL: "https://example.com/app345.jpg",
     Title: "Microwave Oven",
   },
@@ -250,7 +257,7 @@ export const products = [
     Price: "$349.99",
     Rating: 4.7,
     Description:
-      "A durable and efficient dishwasher for hassle-free dishwashing.",
+      "Enjoy hassle-free dishwashing with this durable and efficient dishwasher. It simplifies your kitchen cleanup routine, allowing you to spend less time on chores and more time on the things you love. The high rating reflects its performance, while its price offers a reasonable investment for the convenience it provides.",
     Image_URL: "https://example.com/app678.jpg",
     Title: "Dishwasher",
   },
@@ -260,7 +267,7 @@ export const products = [
     Price: "$59.99",
     Rating: 4.1,
     Description:
-      "A powerful blender for making smoothies, shakes, and other delicious recipes.",
+      "Elevate your culinary skills with this powerful blender. It's perfect for making smoothies, shakes, and other delicious recipes. The affordable price ensures accessibility for food enthusiasts who want to create restaurant-quality blends at home. With this blender, you can experiment with new recipes and enjoy your culinary adventures.",
     Image_URL: "https://example.com/app901.jpg",
     Title: "Blender",
   },
@@ -270,7 +277,7 @@ export const products = [
     Price: "$129.99",
     Rating: 4.5,
     Description:
-      "A versatile air fryer for healthy and crispy cooking with minimal oil.",
+      "Indulge in healthy and crispy cooking with minimal oil using this versatile air fryer. Its convenience and performance make it a kitchen favorite. The affordable price allows health-conscious individuals to enjoy their favorite fried dishes guilt-free while getting excellent value for their investment.",
     Image_URL: "https://example.com/app234.jpg",
     Title: "Air Fryer",
   },
@@ -280,7 +287,7 @@ export const products = [
     Price: "$199.99",
     Rating: 4.3,
     Description:
-      "An energy-efficient air conditioner for keeping your home cool during hot summers.",
+      "Keep your home cool during hot summers with this energy-efficient air conditioner. It ensures a comfortable indoor environment while reducing energy costs. Its price is justified by the relief it brings on scorching days, providing excellent value for cooling your living space.",
     Image_URL: "https://example.com/app567.jpg",
     Title: "Air Conditioner",
   },
@@ -289,7 +296,8 @@ export const products = [
     Product_ID: "APP890",
     Price: "$79.99",
     Rating: 4.6,
-    Description: "A compact and lightweight iron for wrinkle-free clothes.",
+    Description:
+      "Maintain wrinkle-free clothes with this compact and lightweight iron. Its efficient design ensures you look your best without spending excessive time on ironing. The budget-friendly price makes it accessible to all who value well-groomed attire while offering great value for the investment.",
     Image_URL: "https://example.com/app890.jpg",
     Title: "Iron",
   },
@@ -298,7 +306,8 @@ export const products = [
     Product_ID: "GRO123",
     Price: "$2.99",
     Rating: 4.7,
-    Description: "Fresh and organic fruits sourced directly from local farms.",
+    Description:
+      "Savor the freshness of organic fruits sourced directly from local farms with this delightful fruit basket. It ensures that you enjoy nutritious and delicious fruits while supporting local agriculture. The affordable price reflects the accessibility of organic goodness, providing great value for your health and well-being.",
     Image_URL: "https://example.com/gro123.jpg",
     Title: "Organic Fruits Basket",
   },
@@ -308,7 +317,7 @@ export const products = [
     Price: "$1.99",
     Rating: 4.2,
     Description:
-      "A pack of aromatic and high-quality coffee beans for coffee enthusiasts.",
+      "Elevate your coffee experience with this pack of aromatic and high-quality coffee beans. Coffee enthusiasts can now enjoy premium coffee flavors at home. The budget-friendly price provides great value for those who appreciate the rich taste and aroma of freshly brewed coffee.",
     Image_URL: "https://example.com/gro456.jpg",
     Title: "Coffee Beans",
   },
@@ -317,7 +326,8 @@ export const products = [
     Product_ID: "GRO789",
     Price: "$3.49",
     Rating: 4.4,
-    Description: "A variety pack of nutritious and delicious granola bars.",
+    Description:
+      "Satisfy your snack cravings with this variety pack of nutritious and delicious granola bars. Whether you're on the go or in need of a quick energy boost, these bars offer the perfect solution. The affordable price ensures accessibility for all snack lovers while providing great value for tasty and nutritious treats.",
     Image_URL: "https://example.com/gro789.jpg",
     Title: "Granola Bars",
   },

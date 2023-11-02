@@ -1,3 +1,5 @@
+import Navbar from "./components/Navbar";
+
 interface RootLayoutProps {
   children: React.ReactNode;
 }
@@ -5,6 +7,7 @@ interface RootLayoutProps {
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
     <main>
+      <Navbar />
       <div>{children}</div>
     </main>
   );

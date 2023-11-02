@@ -1,5 +1,6 @@
 import ProductCard from "./ProductCard";
 import { ProductsWrapper } from "./ui/Product.styles";
+import { products } from "../config/data";
 
 const Products = () => {
   return (
@@ -7,16 +8,9 @@ const Products = () => {
       <ProductsWrapper>
         <h1>All Products</h1>
         <div>
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
+          {products.map((entry) => (
+            <ProductCard product={entry} />
+          ))}
         </div>
       </ProductsWrapper>
     </>

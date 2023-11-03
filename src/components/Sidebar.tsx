@@ -1,12 +1,20 @@
+import { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { Para, SectionsWrapper, SidebarWrapper } from "./ui/Sidebar.styles";
 
 const SideBar = () => {
   const navigate = useNavigate();
   const location = useLocation();
-  const queryparams = new URLSearchParams(location.search);
-  console.log(queryparams.getAll("category"));
-  // const currentCategory = queryparams.get("category");
+  // const queryparams = new URLSearchParams(location.search);
+  // console.log(queryparams.getAll("category"));
+  // // const currentCategory = queryparams.get("category");
+
+  // const [queryparams, setQueryParams] = useState({
+  //   category: null,
+  //   price: null,
+  // });
+
+  // const handleOnChange = () => {};
 
   return (
     <>

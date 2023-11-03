@@ -17,7 +17,6 @@ export const SectionsWrapper = styled.section`
 export const Para = styled.p`
   font-weight: 500;
   opacity: 0.75;
-
   &:hover {
     opacity: 1;
     cursor: pointer;

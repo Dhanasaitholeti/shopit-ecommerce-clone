@@ -1,27 +1,67 @@
-# React + TypeScript + Vite
+# ShopIt - DevTown assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a sample project using Vite, React, and TypeScript.
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Before you start, make sure you have the following installed:
 
-## Expanding the ESLint configuration
+- Node.js: [Download and install Node.js](https://nodejs.org/)
+- Docker (Recommended): [Download and install Docker](https://www.docker.com/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Getting Started
 
-- Configure the top-level `parserOptions` property like this:
+### Step 1: Clone the Repository
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```bash
+git clone https://github.com/Dhanasaitholeti/shopit-ecommerce-clone.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Replace <repository_url> with the URL of your project's Git repository.
+
+```bash
+cd shopit-ecommerce-clone
+```
+
+Replace <project_directory> with the name of your project directory.
+
+### Using Docker (Recommended)
+
+If you have Docker installed, you can use Docker Compose to set up your development environment:
+
+```bash
+docker-compose up
+```
+
+This command will build and start the project in a Docker container. It's a convenient way to ensure a consistent development environment.
+
+Access the development server at http://localhost:3000.
+
+### Using npm
+
+If you prefer not to use Docker, you can run the project using npm:
+
+```bash
+npm install
+npm run dev
+```
+
+Access the development server at http://localhost:3000.
+
+## Project Structure
+
+- `src/`: Contains your application source code.
+
+- `public/`: Contains static assets.
+
+- `package.json`: Manages project dependencies and scripts.
+
+- `vite.config.js`: Vite configuration.
+
+## Additional Commands
+
+- `npm run build`: Build your project for production.
+
+- `npm run serve`: Serve the production build locally.
+
+<h1 align="center"> Thank you :) </h1>

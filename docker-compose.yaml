@@ -1,0 +1,14 @@
+version: "1.0.1"
+
+services:
+  client:
+    build:
+      context: ./
+    container_name: devtown-assignment
+    volumes:
+      - ./:/client
+      - /client/node_modules
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development

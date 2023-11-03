@@ -1,6 +1,5 @@
 import {
   AddToCartButton,
-  ProductDescription,
   ProductImage,
   ProductPrice,
   ProductTitle,

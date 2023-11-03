@@ -17,6 +17,7 @@ export const CardWrapper = styled.div`
   gap: 10px;
   height: fit-content;
   margin-bottom: 5%;
+  overflow-y: scroll;
   place-items: center;
   @media screen and (min-width: 640px) {
     grid-template-columns: repeat(2, 1fr);
@@ -44,11 +45,11 @@ export const Productcard = styled.div`
     transform: translateY(-4px);
   }
 
-  @media screen and (min-width: 460px) {
+  @media screen and (min-width: 400px) {
     width: 250px;
   }
 
-  @media screen and (min-width: 726px) {
+  @media screen and (min-width: 500px) {
     width: 300px;
   }
   @media screen and (min-width: 900px) {
@@ -68,7 +69,7 @@ export const ProductImage = styled.img`
 
 export const ProductTitle = styled.h3`
   font-size: 0.9rem;
-  margin: 8px 0;
+  margin: 0;
   @media screen and (min-width: 726px) {
     font-size: 1rem;
   }
@@ -113,4 +114,23 @@ export const SelectWrapper = styled.select`
   height: 30px;
   border-radius: 15px;
   padding: 0 10px;
+`;
+
+export const ProductDescription = styled.p`
+  font-size: small;
+`;
+
+export const Text = styled.p`
+  color: #a5a9b5;
+  font-size: small;
+  letter-spacing: 0em;
+  line-height: 12px;
+  cursor: default;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  &:hover {
+    white-space: normal;
+    text-overflow: unset;
+  }
 `;

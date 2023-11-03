@@ -71,7 +71,15 @@ const SideBar = () => {
           </Para>
         </SectionsWrapper>
         <SectionsWrapper>
-          <Button onClick={() => navigate("/")}>clear filters</Button>
+          <Button
+            onClick={() => {
+              handleOnChange("price", null);
+              handleOnChange("category", null);
+              navigate("/");
+            }}
+          >
+            clear filters
+          </Button>
         </SectionsWrapper>
       </SidebarWrapper>
     </>

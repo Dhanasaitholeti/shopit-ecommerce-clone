@@ -6,7 +6,7 @@ export const HomeScreenWrapper = styled.div`
   margin: 1vw 1vw;
   @media screen and (min-width: 1300px) {
     /* Adjust the margin for larger screens (lg screen) */
-    margin: 1vw 2vw; /* Change the margin values to your preference */
+    margin: 1vw 5vw; /* Change the margin values to your preference */
   }
 `;
 

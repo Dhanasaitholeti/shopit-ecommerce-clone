@@ -1,6 +1,11 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Para, SectionsWrapper, SidebarWrapper } from "./ui/Sidebar.styles";
+import {
+  Button,
+  Para,
+  SectionsWrapper,
+  SidebarWrapper,
+} from "./ui/Sidebar.styles";
 import queryString from "query-string";
 
 const SideBar = () => {
@@ -64,6 +69,9 @@ const SideBar = () => {
           <Para onClick={() => handleOnChange("price", "high-low")}>
             High to Low
           </Para>
+        </SectionsWrapper>
+        <SectionsWrapper>
+          <Button onClick={() => navigate("/")}>clear filters</Button>
         </SectionsWrapper>
       </SidebarWrapper>
     </>

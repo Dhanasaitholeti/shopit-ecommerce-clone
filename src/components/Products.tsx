@@ -4,6 +4,7 @@ import { products } from "../config/data";
 import { useLocation } from "react-router-dom";
 import Pagination from "./Pagination";
 import FilterSection from "./FilterSection";
+import { PaginationContainer } from "./ui/Pagination.styled";
 
 const Products = () => {
   const location = useLocation();
@@ -54,12 +55,13 @@ const Products = () => {
             <ProductCard product={product} key={product.Product_ID} />
           ))}
         </CardWrapper>
-        <div>
+
+        <PaginationContainer>
           <Pagination
             pages={filteredProducts.length / 12}
             currentpage={currentPage}
           />
-        </div>
+        </PaginationContainer>
       </ProductsWrapper>
     </>
   );

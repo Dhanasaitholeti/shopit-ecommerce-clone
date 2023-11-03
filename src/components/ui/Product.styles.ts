@@ -15,6 +15,8 @@ export const CardWrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
+  height: fit-content;
+  margin-bottom: 5%;
   place-items: center;
   @media screen and (min-width: 640px) {
     grid-template-columns: repeat(2, 1fr);
@@ -29,6 +31,7 @@ export const Productcard = styled.div`
   display: flex;
   flex-direction: column;
   width: 300px;
+  max-height: 300px;
   aspect-ratio: 1/1;
   border: 1px solid #e1e1e1;
   border-radius: 8px;
@@ -49,8 +52,7 @@ export const Productcard = styled.div`
     width: 300px;
   }
   @media screen and (min-width: 900px) {
-    min-width: 200px;
-    max-width: 240px;
+    width: 280px;
   }
   @media screen and (min-width: 1300px) {
     max-width: 320px;

@@ -41,7 +41,7 @@ const Products = () => {
         </div>
       </ProductsWrapper>
       <div>
-        <Pagination pages={newlist.length / 12} />
+        <Pagination pages={newlist.length / 12} currentpage={currentPage} />
       </div>
     </>
   );

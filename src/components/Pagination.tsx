@@ -1,13 +1,11 @@
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { PageButton, PaginationWrapper } from "./ui/Pagination.styled";
 
-const Pagination: React.FC<{ pages: number }> = ({ pages }) => {
-  const location = useLocation();
+const Pagination: React.FC<{ pages: number; currentpage: number }> = ({
+  pages,
+  currentpage,
+}) => {
   const navigate = useNavigate();
-
-  const queryparams = new URLSearchParams(location.search);
-
-  const page = queryparams.get("page");
 
   const handlePageClick = (page: number) => {
     navigate(`?page=${page}`);
@@ -20,7 +18,7 @@ const Pagination: React.FC<{ pages: number }> = ({ pages }) => {
     for (let i = 1; i <= pages; i++) {
       buttons.push(
         <PageButton
-          isActive={(page && parseInt(page)) == i}
+          isActive={currentpage == i}
           key={i}
           onClick={() => handlePageClick(i)}
         >

@@ -17,13 +17,13 @@ Before you start, make sure you have the following installed:
 git clone https://github.com/Dhanasaitholeti/shopit-ecommerce-clone.git
 ```
 
-Replace <repository_url> with the URL of your project's Git repository.
+### Step 2: Navigate to the Project Directory
 
 ```bash
 cd shopit-ecommerce-clone
 ```
 
-Replace <project_directory> with the name of your project directory.
+### Step 3: Choose Your Development Environment
 
 ### Using Docker (Recommended)
 

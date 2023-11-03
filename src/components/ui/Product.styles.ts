@@ -1,15 +1,29 @@
 import styled from "styled-components";
 
 export const ProductsWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   h1 {
     font-size: larger;
     opacity: 0.8;
     font-weight: 600;
   }
-  div {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+`;
+
+export const CardWrapper = styled.div`
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  place-items: center;
+
+  @media screen and (min-width: 640px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2%;
+  }
+
+  @media screen and (min-width: 1200px) {
+    grid-template-columns: repeat(3, 1fr);
   }
 `;
 
@@ -17,7 +31,8 @@ export const Productcard = styled.div`
   display: flex;
   flex-direction: column;
   gap: 5px;
-  width: 320px;
+  width: 300px;
+  aspect-ratio: 1/1;
   border: 1px solid #e1e1e1;
   border-radius: 8px;
   padding: 16px;
@@ -27,6 +42,18 @@ export const Productcard = styled.div`
 
   &:hover {
     transform: translateY(-4px);
+  }
+
+  @media screen and (min-width: 460px) {
+    width: 250px;
+  }
+
+  @media screen and (min-width: 726px) {
+    width: 300px;
+  }
+  @media screen and (min-width: 900px) {
+    min-width: 200px;
+    max-width: 250px;
   }
 `;
 
@@ -40,6 +67,9 @@ export const ProductImage = styled.img`
 export const ProductTitle = styled.h3`
   font-size: 1.2rem;
   margin: 8px 0;
+  @media screen and (min-width: 726px) {
+    font-size: 1rem;
+  }
 `;
 
 export const ProductPrice = styled.span`
@@ -60,4 +90,21 @@ export const AddToCartButton = styled.button`
   &:hover {
     background-color: #0056b3; /* Change the color to your preference */
   }
+`;
+
+export const FilterWrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+
+  @media screen and (min-width: 900px) {
+    display: none;
+  }
+`;
+
+export const SelectWrapper = styled.select`
+  min-width: 150px;
+  height: 30px;
+  border-radius: 15px;
+  padding: 0 10px;
 `;

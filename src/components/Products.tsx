@@ -1,5 +1,10 @@
 import ProductCard from "./ProductCard";
-import { ProductsWrapper } from "./ui/Product.styles";
+import {
+  CardWrapper,
+  FilterWrapper,
+  ProductsWrapper,
+  SelectWrapper,
+} from "./ui/Product.styles";
 import { products } from "../config/data";
 import { useLocation } from "react-router-dom";
 import Pagination from "./Pagination";
@@ -34,15 +39,30 @@ const Products = () => {
     <>
       <ProductsWrapper>
         <h1>{category.length < 1 ? "All" : category[0]} Products</h1>
-        <div>
+        <FilterWrapper>
+          <SelectWrapper>
+            <option value="h-l" selected>
+              high to low
+            </option>
+            <option value="l-h">low to high</option>
+          </SelectWrapper>
+          <SelectWrapper>
+            <option value="Clothing">clothing</option>
+            <option value="Electronics">electronics</option>
+            <option value="Appliances">appliances</option>
+            <option value="Grocery">grocery</option>
+            <option value="Toys">toys</option>
+          </SelectWrapper>
+        </FilterWrapper>
+        <CardWrapper>
           {productsForPage.map((entry) => (
             <ProductCard product={entry} key={entry.Product_ID} />
           ))}
+        </CardWrapper>
+        <div>
+          <Pagination pages={newlist.length / 12} currentpage={currentPage} />
         </div>
       </ProductsWrapper>
-      <div>
-        <Pagination pages={newlist.length / 12} currentpage={currentPage} />
-      </div>
     </>
   );
 };

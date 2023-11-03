@@ -116,10 +116,6 @@ export const SelectWrapper = styled.select`
   padding: 0 10px;
 `;
 
-export const ProductDescription = styled.p`
-  font-size: small;
-`;
-
 export const Text = styled.p`
   color: #a5a9b5;
   font-size: small;

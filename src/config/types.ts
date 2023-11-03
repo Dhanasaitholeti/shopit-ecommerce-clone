@@ -4,6 +4,7 @@ export interface productType {
   Product_ID: string;
   Price: Number;
   Rating: Number;
+  short_description: string;
   Description: string;
   Image_URL: string;
 }

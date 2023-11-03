@@ -4,9 +4,9 @@ export const HomeScreenWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin: 1vw 1vw;
-  @media screen and (min-width: 1100px) {
+  @media screen and (min-width: 1300px) {
     /* Adjust the margin for larger screens (lg screen) */
-    margin: 1vw 10vw; /* Change the margin values to your preference */
+    margin: 1vw 2vw; /* Change the margin values to your preference */
   }
 `;
 

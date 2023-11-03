@@ -1,13 +1,9 @@
 import ProductCard from "./ProductCard";
-import {
-  CardWrapper,
-  FilterWrapper,
-  ProductsWrapper,
-  SelectWrapper,
-} from "./ui/Product.styles";
+import { CardWrapper, ProductsWrapper } from "./ui/Product.styles";
 import { products } from "../config/data";
 import { useLocation } from "react-router-dom";
 import Pagination from "./Pagination";
+import FilterSection from "./FilterSection";
 
 const Products = () => {
   const location = useLocation();
@@ -53,36 +49,9 @@ const Products = () => {
           {price.length > 0 &&
             ` - ${price[0] === "low-high" ? "Low to High" : "High to Low"}`}
         </h1>
-        <FilterWrapper>
-          <SelectWrapper>
-            <option value="h-l" selected={price[0] === "h-l"}>
-              high to low
-            </option>
-            <option value="l-h" selected={price[0] === "l-h"}>
-              low to high
-            </option>
-          </SelectWrapper>
-          <SelectWrapper>
-            <option value="Clothing" selected={category[0] === "Clothing"}>
-              clothing
-            </option>
-            <option
-              value="Electronics"
-              selected={category[0] === "Electronics"}
-            >
-              electronics
-            </option>
-            <option value="Appliances" selected={category[0] === "Appliances"}>
-              appliances
-            </option>
-            <option value="Grocery" selected={category[0] === "Grocery"}>
-              grocery
-            </option>
-            <option value="Toys" selected={category[0] === "Toys"}>
-              toys
-            </option>
-          </SelectWrapper>
-        </FilterWrapper>
+
+        <FilterSection />
+
         <CardWrapper>
           {productsForPage.map((product) => (
             <ProductCard product={product} key={product.Product_ID} />

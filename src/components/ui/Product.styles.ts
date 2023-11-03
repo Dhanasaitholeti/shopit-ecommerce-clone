@@ -97,7 +97,8 @@ export const AddToCartButton = styled.button`
 
 export const FilterWrapper = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 5%;
   padding: 0 5%;
 
   @media screen and (min-width: 900px) {
@@ -106,7 +107,7 @@ export const FilterWrapper = styled.div`
 `;
 
 export const SelectWrapper = styled.select`
-  min-width: 150px;
+  min-width: 30%;
   height: 30px;
   border-radius: 15px;
   padding: 0 10px;

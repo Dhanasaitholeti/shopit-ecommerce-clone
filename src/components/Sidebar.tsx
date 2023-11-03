@@ -1,35 +1,69 @@
 import { useState } from "react";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { Para, SectionsWrapper, SidebarWrapper } from "./ui/Sidebar.styles";
+import queryString from "query-string";
 
 const SideBar = () => {
   const navigate = useNavigate();
-  const location = useLocation();
+
   // const queryparams = new URLSearchParams(location.search);
   // console.log(queryparams.getAll("category"));
   // // const currentCategory = queryparams.get("category");
 
-  // const [queryparams, setQueryParams] = useState({
-  //   category: null,
-  //   price: null,
-  // });
+  interface paramsType {
+    category: string | null;
+    price: string | null;
+  }
 
-  // const handleOnChange = () => {};
+  const [queryparams, setQueryParams] = useState<paramsType>({
+    category: null,
+    price: null,
+  });
+
+  const handleOnChange = (type: string, val: string | null) => {
+    setQueryParams({
+      ...queryparams,
+      [type]: val,
+    });
+
+    const stringifiedParams = queryString.stringify({
+      ...queryparams,
+      [type]: val,
+    });
+
+    navigate(`/?${stringifiedParams}`);
+  };
+
+  console.log(queryparams);
 
   return (
     <>
       <SidebarWrapper>
-        <h3>Category</h3>
+        <h3>Category:</h3>
         <SectionsWrapper>
-          <Para onClick={() => navigate("?category=Clothing")}>Clothing</Para>
-          <Para onClick={() => navigate("?category=Electronics")}>
+          <Para onClick={() => handleOnChange("category", "Clothing")}>
+            Clothing
+          </Para>
+
+          <Para onClick={() => handleOnChange("category", "Electronics")}>
             Electronics
           </Para>
-          <Para onClick={() => navigate("?category=Appliances")}>
+          <Para onClick={() => handleOnChange("category", "Appliances")}>
             Appliances
           </Para>
-          <Para onClick={() => navigate("?category=Grocery")}>Grocery</Para>
-          <Para onClick={() => navigate("?category=Toys")}>Toys</Para>
+          <Para onClick={() => handleOnChange("category", "Grocery")}>
+            Grocery
+          </Para>
+          <Para onClick={() => handleOnChange("category", "Toys")}>Toys</Para>
+        </SectionsWrapper>
+        <h3>Price:</h3>
+        <SectionsWrapper>
+          <Para onClick={() => handleOnChange("price", "low-high")}>
+            Low to High
+          </Para>
+          <Para onClick={() => handleOnChange("price", "high-low")}>
+            High to Low
+          </Para>
         </SectionsWrapper>
       </SidebarWrapper>
     </>

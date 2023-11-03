@@ -16,12 +16,10 @@ export const CardWrapper = styled.div`
   grid-template-columns: 1fr;
   gap: 10px;
   place-items: center;
-
   @media screen and (min-width: 640px) {
     grid-template-columns: repeat(2, 1fr);
     gap: 2%;
   }
-
   @media screen and (min-width: 1200px) {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -30,7 +28,6 @@ export const CardWrapper = styled.div`
 export const Productcard = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 5px;
   width: 300px;
   aspect-ratio: 1/1;
   border: 1px solid #e1e1e1;
@@ -53,19 +50,22 @@ export const Productcard = styled.div`
   }
   @media screen and (min-width: 900px) {
     min-width: 200px;
-    max-width: 250px;
+    max-width: 240px;
+  }
+  @media screen and (min-width: 1300px) {
+    max-width: 320px;
   }
 `;
 
 export const ProductImage = styled.img`
   width: 100%;
   aspect-ratio: 1/1;
-  max-width: 300px;
+  max-width: 250px;
   object-position: center;
 `;
 
 export const ProductTitle = styled.h3`
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   margin: 8px 0;
   @media screen and (min-width: 726px) {
     font-size: 1rem;
@@ -73,9 +73,12 @@ export const ProductTitle = styled.h3`
 `;
 
 export const ProductPrice = styled.span`
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   font-weight: 600;
   color: #f00; /* Change the color to your preference */
+  @media screen and (min-width: 726px) {
+    font-size: 1rem;
+  }
 `;
 
 export const AddToCartButton = styled.button`

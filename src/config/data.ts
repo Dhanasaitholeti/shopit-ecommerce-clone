@@ -113,7 +113,7 @@ export const products = [
   {
     Category: "Electronics",
     Product_ID: "ELE123",
-    Price: 1900.99,
+    Price: 19000.99,
     Rating: 4.8,
     Description:
       "Step into the future with this powerful and sleek smartphone. Boasting a high-resolution display and advanced camera features, it is designed to meet all your communication and multimedia needs. Whether you're capturing stunning photos or browsing the web, this smartphone offers a seamless experience. Its premium design and build quality reflect its high-end features. With an affordable price, it provides exceptional value for its capabilities. Stay connected and enjoy the latest technology with this smartphone, which is not just a communication device but a companion for your daily life.",
@@ -124,7 +124,7 @@ export const products = [
   {
     Category: "Electronics",
     Product_ID: "ELE456",
-    Price: 9900.99,
+    Price: 99000.99,
     Rating: 4.4,
     Description:
       "Meet your computing needs with this affordable and compact laptop. It is equipped with a fast processor and long battery life, ensuring you can work and play without interruptions. The laptop's portable design makes it ideal for on-the-go use. Despite its budget-friendly price, it delivers exceptional performance. Whether you're working on projects, streaming content, or staying productive, this laptop offers a seamless experience. Experience the power of technology without breaking the bank and make this laptop your trusted companion for all your computing tasks.",
@@ -135,7 +135,7 @@ export const products = [
   {
     Category: "Electronics",
     Product_ID: "ELE789",
-    Price: 1400.99,
+    Price: 14000.99,
     Rating: 4.6,
     Description:
       "Stay connected and active with this feature-packed smartwatch. It offers fitness tracking and notification capabilities, ensuring you're always in the loop. The smartwatch's affordable price provides great value for its features. Whether you're working out, managing your daily tasks, or simply staying connected, this smartwatch is designed to keep up with your dynamic lifestyle. Its sleek and modern design complements your style effortlessly. Enjoy the convenience and functionality of a smartwatch that enhances your daily life. Stay motivated and organized with this reliable and affordable smartwatch.",
@@ -146,7 +146,7 @@ export const products = [
   {
     Category: "Electronics",
     Product_ID: "ELE012",
-    Price: 4900.99,
+    Price: 49000.99,
     Rating: 4.7,
     Description:
       "Transform your home entertainment experience with this high-definition smart TV. Its large screen and exceptional sound quality provide a cinematic experience within the comfort of your living room. Whether you're streaming your favorite shows, gaming, or watching sports, this smart TV delivers top-notch entertainment. The affordable price ensures you get great value for a high-quality television. The TV's sleek design adds a touch of modernity to your living space. Immerse yourself in the world of high-definition visuals and crystal-clear sound with this smart TV. Upgrade your home entertainment system and enjoy an unparalleled viewing experience.",
@@ -167,7 +167,7 @@ export const products = [
   {
     Category: "Electronics",
     Product_ID: "ELE678",
-    Price: 3400.99,
+    Price: 34000.99,
     Rating: 4.5,
     Description:
       "Capture unforgettable moments with this versatile and powerful DSLR camera. Designed for photography enthusiasts, it offers the tools and features you need to unleash your creativity. Whether you're a beginner or a seasoned photographer, this camera provides exceptional image quality and precise controls. Its affordable price point makes it accessible to a wide range of users. With the ability to shoot high-resolution photos and videos, it's the perfect companion for your photography journey. Unlock your full potential as a photographer and document life's most precious moments with this reliable and affordable DSLR camera.",
@@ -189,7 +189,7 @@ export const products = [
   {
     Category: "Electronics",
     Product_ID: "ELE234",
-    Price: 1900.99,
+    Price: 19000.99,
     Rating: 4.3,
     Description:
       "Immerse yourself in the world of high-performance gaming with this console. It boasts cutting-edge graphics and offers a captivating gaming experience. Whether you're a casual gamer or a hardcore enthusiast, this console provides endless entertainment. While it offers top-tier performance, it remains budget-friendly, giving you exceptional value for a fantastic gaming experience.",

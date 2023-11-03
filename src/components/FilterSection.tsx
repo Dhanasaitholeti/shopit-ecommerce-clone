@@ -2,6 +2,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { FilterWrapper, SelectWrapper } from "./ui/Product.styles";
 import { useState } from "react";
 import queryString from "query-string";
+import { Button } from "./ui/Sidebar.styles";
 
 const FilterSection = () => {
   const location = useLocation();
@@ -18,7 +19,7 @@ const FilterSection = () => {
 
   const [queryparams, setQueryParams] = useState<paramsType>({
     category: null,
-    price: null,
+    price: "high-low",
   });
 
   const handleOnChange = (type: string, val: string | null) => {
@@ -38,6 +39,7 @@ const FilterSection = () => {
   return (
     <FilterWrapper>
       <SelectWrapper onChange={(e) => handleOnChange("price", e.target.value)}>
+        <option value="">select</option>
         <option value="high-low" selected={price[0] === "high-low"}>
           high to low
         </option>
@@ -48,6 +50,7 @@ const FilterSection = () => {
       <SelectWrapper
         onChange={(e) => handleOnChange("category", e.target.value)}
       >
+        <option value="null">All</option>
         <option value="Clothing" selected={category[0] === "Clothing"}>
           clothing
         </option>
@@ -64,6 +67,16 @@ const FilterSection = () => {
           toys
         </option>
       </SelectWrapper>
+
+      <Button
+        onClick={() => {
+          handleOnChange("price", null);
+          handleOnChange("category", null);
+          navigate("/");
+        }}
+      >
+        clear filters
+      </Button>
     </FilterWrapper>
   );
 };

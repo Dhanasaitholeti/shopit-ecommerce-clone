@@ -21,10 +21,10 @@ const SideBar = () => {
   });
 
   const handleOnChange = (type: string, val: string | null) => {
-    setQueryParams({
-      ...queryparams,
+    setQueryParams((prevQueryParams) => ({
+      ...prevQueryParams,
       [type]: val,
-    });
+    }));
 
     const stringifiedParams = queryString.stringify({
       ...queryparams,

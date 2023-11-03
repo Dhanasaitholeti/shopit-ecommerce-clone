@@ -7,9 +7,13 @@ export const PaginationWrapper = styled.div`
   margin-top: 20px;
 `;
 
-export const PageButton = styled.button`
-  background-color: "transparent";
-  color: "#0070ff";
+interface PageButtonProps {
+  isActive: boolean;
+}
+
+export const PageButton = styled.button<PageButtonProps>`
+  background-color: ${(props) => (props.isActive ? "#0070ff" : "transparent")};
+  color:  ${(props) => (props.isActive ? "#fff" : "#0070ff")};;
   border: 1px solid #0070ff;
   border-radius: 5px;
   padding: 5px 10px;
